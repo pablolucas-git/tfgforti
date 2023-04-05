@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estiloinicio.css">
+    <script src="inicio.js"></script>
+    {% if attrs.accion is not null %}
+        {% if attrs.accion == "login" %}
+            <script></script>
+        {% else %}
+            <script>
+                document.addEventListener("DOMContentLoaded", function () {
+                    document.getElementById("irARegistro").click();
+                });
+            </script>
+        {% endif %}
+    {% endif %}
+</head>
+
+<body>
+
+    <div id="formulario">
+        <form id="formlogin" method="post" action="controladorInicio.php">
+            <input type="text" name="username" placeholder="Nombre de usuario">
+            <input type="password" name="password" placeholder="Contraseña">
+            {% if attrs.accion is not null %}
+                {% if attrs.accion == "login" %}
+                    {% if attrs.result == "error" %}
+                        <p class="error">Nombre de usuario o contraseña incorrecto</p>
+                    {% endif %}
+                {% endif %}
+            {% endif %}
+            <input type="submit" name="login" value="Iniciar Sesión">
+            <div>
+                <p>¿No tienes una cuenta? <a id="irARegistro" href="">Registrate</a></p>
+            </div>
+        </form>
+        <form id="formregistro" method="post" action="controladorInicio.php">
+            <input type="text" name="nombre" placeholder="Nombre">
+            <input type="email" name="email" placeholder="Email">
+            {% if attrs.accion is not null %}
+                {% if attrs.accion == "registro" %}
+                    {% if attrs.result == "problemaMail" %}
+                        <p class="error">Ya existe un usuario con ese mail</p>
+                    {% endif %}
+                {% endif %}
+            {% endif %}
+            <input type="text" name="username" placeholder="Nombre de usuario">
+            {% if attrs.accion is not null %}
+                {% if attrs.accion == "registro" %}
+                    {% if attrs.result == "problemaUser" %}
+                        <p class="error">Ya existe un usuario con ese nombre de usuario</p>
+                    {% endif %}
+                {% endif %}
+            {% endif %}
+            <input type="password" name="password" placeholder="Contraseña">
+            <label for="foto">Subir foto</label>
+            <input type="file" name="foto" id="foto">
+            {% if attrs.accion is not null %}
+                {% if attrs.accion == "registro" %}
+                    {% if attrs.result == "fallo" %}
+                        <p class="error">Ha ocurrido un error, prueba a intentarlo otra vez</p>
+                    {% endif %}
+                {% endif %}
+            {% endif %}
+            <input type="submit" name="registro" value="Registrate">
+            <div>
+                <p>¿Ya tienes una cuenta? <a id="irALogin" href="">Inicia Sesión</a></p>
+            </div>
+        </form>
+    </div>
+
+
+
+</body>
+
+</html>
