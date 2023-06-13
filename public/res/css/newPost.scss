@@ -1,0 +1,112 @@
+#new-post {
+    &.hidden-new-post {
+        display: none;
+    }
+    width: calc(100% - 20px);
+    padding: 20px;
+    border-radius: 30px;
+    margin: auto;
+    margin-bottom: 2em;
+    input[type="file"]{
+        display: none;
+    }
+    label.imagen{
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        background-color: #ffffff49;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        transition: background-color .3s ease-in-out;
+        &:hover{
+            background-color: #ffffff;
+            i{
+                color: #bd9fe9;
+            }
+        }
+        i{
+            color: white;
+            font-size: 30px;
+            transition: color .3s ease-in-out;
+        }
+    }
+    .titlenewpost {
+        width: fit-content;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        height: fit-content;
+        padding: 0;
+        vertical-align: middle;
+    }
+
+    h6 {
+        background-color:rgb(242, 220, 255);
+        -webkit-text-stroke: 0.5px #7158E2;
+        color:#bd9fe9;
+        padding: .5rem;
+        border-radius: 20px;
+    }
+
+    label {
+        display: block;
+    }
+
+    form {
+        width: 100%;
+        padding: 20px;
+        border-radius: 40px;
+        border: none;
+        cursor: pointer;
+        background: linear-gradient(275.76deg, #7158E2 30.33%, #CD84F1 98.56%);
+        color: white;
+        box-shadow: 0 0 3px 3px rgba(255, 255, 255, 0.377);
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .forminputs {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .botonsubmit {
+        text-align: center;
+    }
+
+
+    input[type="text"]{
+        width: 80%;
+        padding: 10px;
+        border: none;
+        border-radius: 10px;
+        box-shadow: none;
+        outline: none;
+    }
+
+
+    input[type="file"],
+    input[type="text"]:active {
+        border: none;
+
+    }
+
+    input[type="submit"] {
+        background-color: #bd9fe9;
+        border-radius: 4px;
+        cursor: pointer;
+        color: white;
+        border: 1px solid;
+        border-color: #7158e2;
+    }
+
+}

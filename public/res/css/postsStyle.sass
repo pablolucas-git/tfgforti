@@ -1,0 +1,152 @@
+#div-posts
+    width: 100%
+    height: 100%
+    display: flex
+    flex-direction: column
+    gap: 10px
+    .post-wrapper
+        width: 100%
+        height: auto
+        display: flex
+        flex-direction: column
+        gap: 10px
+        padding: 10px
+        .post-container
+            width: 100%
+            height: auto
+            min-height: 300px
+            background: #BD9FE9
+            border-radius: 30px
+
+            .header
+                width: 400px
+                margin-left: 2em
+                margin-top: 2em
+                display: flex
+                flex-direction: row
+                align-items: center
+                gap: 10px
+
+                .img-container
+                    width: 60px
+                    height: 60px
+                .txtperfil
+                    display: flex
+                    flex-direction: column
+                    .username
+                        a
+                            color: var(--bs-body-color)
+                            text-decoration: none
+
+            .publicacion
+                margin: 2em
+                .post-img-container
+                    width: 100%
+                    display: flex
+                    justify-content: center
+                    align-items: center
+                    img
+                        width: 100%
+
+        .post-interactions-container
+            width: 100%
+            height: 40px
+            background: #BD9FE9
+            border-radius: 30px
+            display: flex
+            flex-direction: row
+            justify-content: space-around
+            padding: 0 30px 0 80px
+            align-items: center
+            .heart, .comentarios, .guardadas
+                &, *
+                    margin: 0
+                    padding: 0
+                    padding-right: 5px
+                    color: white
+                    font-weight: bold
+                    cursor: pointer
+                span.icons
+                    padding: 0 !important
+                    margin: 0 !important
+                    width: fit-content
+            i
+                padding: 0 !important
+
+        .comentariosdesplegados
+            background: #ffffffa9
+            border-radius: 50px
+            margin: 2em
+            height: auto
+            display: flex
+            flex-direction: column
+            align-items: flex-start
+            box-shadow: 0 0 10px 10px #ffffffa9
+            overflow: hidden
+            .all-comments
+                max-height: 300px
+                width: 100%
+                overflow-y: scroll
+            .coment-container
+                display: flex
+
+            .writecoment-container
+                display: flex
+                overflow: hidden
+                align-items: center
+                width: 100%
+
+                .input-coment
+                    display: flex
+                    align-items: center
+                    position: relative
+                    overflow-x: visible
+                    width: 100%
+                    
+                    
+                    &::before
+                        content: ""
+                        position: absolute
+                        display: block
+                        width: calc(100% - 30px)
+                        height: 100%
+                        background: #b49bb952
+                        border-radius: 50px
+                        top: 0
+                        left: 0
+                        transition: background .3s ease-in-out
+                        z-index: 0
+                        filter: blur(5px)
+                    input
+                        width: 100%
+                        border-radius: 50px
+                        border: none
+                        outline: none
+                        padding: 0.5em 1em
+                        transition: background .3s ease-in-out
+                        background: transparent
+                        z-index: 1
+                        &::placeholder
+                            color: #474747
+
+            .img-container
+                margin: 1em
+                width: 50px
+
+            .content-container
+                display: flex
+                flex-direction: column
+                margin-top: 1em
+
+            .content-container .usercoment
+                font-weight: bold
+    .comment-button
+        border: none
+        background: transparent
+        outline: none
+        margin-right: calc(30px + 1em)
+        z-index: 1
+        i
+            color: #555555
+            font-size: 1.2em
+            

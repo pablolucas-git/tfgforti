@@ -1,0 +1,102 @@
+#new-post {
+  width: calc(100% - 20px);
+  padding: 20px;
+  border-radius: 30px;
+  margin: auto;
+  margin-bottom: 2em;
+}
+#new-post.hidden-new-post {
+  display: none;
+}
+#new-post input[type=file] {
+  display: none;
+}
+#new-post label.imagen {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.2862745098);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+#new-post label.imagen:hover {
+  background-color: #ffffff;
+}
+#new-post label.imagen:hover i {
+  color: #bd9fe9;
+}
+#new-post label.imagen i {
+  color: white;
+  font-size: 30px;
+  transition: color 0.3s ease-in-out;
+}
+#new-post .titlenewpost {
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 0;
+  vertical-align: middle;
+}
+#new-post h6 {
+  background-color: rgb(242, 220, 255);
+  -webkit-text-stroke: 0.5px #7158E2;
+  color: #bd9fe9;
+  padding: 0.5rem;
+  border-radius: 20px;
+}
+#new-post label {
+  display: block;
+}
+#new-post form {
+  width: 100%;
+  padding: 20px;
+  border-radius: 40px;
+  border: none;
+  cursor: pointer;
+  background: linear-gradient(275.76deg, #7158E2 30.33%, #CD84F1 98.56%);
+  color: white;
+  box-shadow: 0 0 3px 3px rgba(255, 255, 255, 0.377);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+#new-post .forminputs {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  justify-content: center;
+}
+#new-post .botonsubmit {
+  text-align: center;
+}
+#new-post input[type=text] {
+  width: 80%;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: none;
+  outline: none;
+}
+#new-post input[type=file],
+#new-post input[type=text]:active {
+  border: none;
+}
+#new-post input[type=submit] {
+  background-color: #bd9fe9;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+  border: 1px solid;
+  border-color: #7158e2;
+}/*# sourceMappingURL=newPost.css.map */

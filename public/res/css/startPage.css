@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  padding: 0 0;
+  margin: 0 0;
+  overflow: hidden;
+  background: rgba(123, 63, 211, 0.9);
+}
+
+* {
+  font-family: Lato;
+}
+
+input[type=file] {
+  display: none;
+}
+
+label.registerImage {
+  width: 45px;
+  height: 45px;
+  background: #BD9FE9;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin: auto;
+  transition: background 0.3s ease-in-out;
+}
+label.registerImage:hover {
+  background: #F2F4FF;
+}
+label.registerImage:hover i {
+  color: #BD9FE9;
+}
+label.registerImage i {
+  color: #F2F4FF;
+  font-size: 26px;
+  font-weight: 600;
+  transition: color 0.3s ease-in-out;
+}
+
+.start-screen-container {
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.start-screen-container .start-container {
+  display: grid;
+  background: white;
+  aspect-ratio: 0.61;
+  height: calc(100vh - 20px);
+  border-radius: 30px;
+  grid-template-areas: "a a a a" "a a a a" "b b b b" "c c c c" "c c c c" "c c c c";
+}
+.start-screen-container .start-container .img-container {
+  width: 220px;
+  height: 80px;
+  background: #BD9FE9;
+  border-radius: 37px;
+  grid-area: a;
+  margin: auto;
+}
+.start-screen-container .start-container #start-form-title {
+  font-weight: 600;
+  color: #7B3FD3;
+  font-size: 20px;
+  grid-area: b;
+  margin: auto;
+}
+.start-screen-container .start-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 400px;
+  grid-area: c;
+  margin: auto;
+  width: 100%;
+  justify-content: space-around;
+}
+.start-screen-container .start-container form#form-register {
+  display: none;
+}
+.start-screen-container .start-container form input {
+  border: none;
+  outline: none;
+  width: 240px;
+  height: 35px;
+  background: #F2F4FF;
+  border: 1px solid #BD9FE9;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 15px;
+  color: #7B3FD3;
+  padding-left: 17px;
+  padding-right: 17px;
+}
+.start-screen-container .start-container form input::-moz-placeholder {
+  color: #BD9FE9;
+  font-weight: 500;
+  font-size: 15px;
+}
+.start-screen-container .start-container form input::placeholder {
+  color: #BD9FE9;
+  font-weight: 500;
+  font-size: 15px;
+}
+.start-screen-container .start-container form input.input-error {
+  border: 1px solid red;
+  animation: shake 0.7s;
+  color: red;
+}
+@keyframes shake {
+  0% {
+    transform: translate(0px);
+  }
+  10% {
+    transform: translate(-20px);
+  }
+  20% {
+    transform: translate(18px);
+  }
+  30% {
+    transform: translate(-18px);
+  }
+  40% {
+    transform: translate(16px);
+  }
+  50% {
+    transform: translate(-16px);
+  }
+  60% {
+    transform: translate(10px);
+  }
+  70% {
+    transform: translate(-10px);
+  }
+  80% {
+    transform: translate(6px);
+  }
+  90% {
+    transform: translate(-6px);
+  }
+  100% {
+    transform: translate(0px);
+  }
+}
+.start-screen-container .start-container form button {
+  outline: none;
+  cursor: pointer;
+  border: 1px solid #BD9FE9;
+  background: #F2F4FF;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 25px;
+  height: 36px;
+  width: 238px;
+  color: #58617A;
+}
+.start-screen-container .start-container form button#register-button, .start-screen-container .start-container form button#login-button {
+  background: #BD9FE9;
+  border: none;
+  color: #F2F4FF;
+}
+.start-screen-container .start-container form div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.register-success {
+  background: #1bb4a5;
+  color: white;
+  font-family: Poppins;
+}
+.register-success .notification-icon {
+  background: #00CC99;
+}
+.register-success:before {
+  background: #00CC99;
+}
+
+.form-failed {
+  background: #d288bb;
+  color: white;
+}
+.form-failed .notification-icon {
+  background: #CC0000;
+}
+.form-failed::before {
+  background: #ce3447;
+}/*# sourceMappingURL=startPage.css.map */

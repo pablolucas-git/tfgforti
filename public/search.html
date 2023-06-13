@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block title %} Buscar {% endblock title %}
+
+{% block style %}
+<link rel="stylesheet" href="public/res/css/searchStyle.css">
+{% endblock style %}
+
+{% block script %}
+<script src="public/scripts/searchScript.js"></script>
+{% endblock script %}
+
+{% block content %}
+<div class="search-wrapper">
+    <input type="text" id="search-input" placeholder="Buscar">
+    <ul id="search-list">
+       
+        
+    </ul>
+</div>
+
+{% endblock content %}

@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block title %} Inicio {% endblock title %}
+
+
+
+
+
+{% block style %}
+<link rel="stylesheet" href="/public/res/css/postsStyle.css">
+{% endblock style %}
+
+{% block script %}
+<script src="/public/scripts/postsScripts.js"></script>
+{% endblock script %}
+
+
+{% block content %}
+<div id="div-posts" style="position: relative">
+    {% for post in posts %}
+    {% include 'posts.html' with {'post':post} %}
+    {% endfor %}
+</div>
+{% endblock content %}

@@ -1,0 +1,190 @@
+===============================================================================
+EXTENSION NAME : linecounter
+EXTENSION VERSION : 0.2.7
+-------------------------------------------------------------------------------
+count time : 2023-06-13 16:58:35
+count workspace : /opt/lampp/htdocs
+total files : 159
+total code lines : 5061
+total comment lines : 75
+total blank lines : 448
+
+    statistics
+   |      extension|     total code|  total comment|    total blank|percent|
+   -------------------------------------------------------------------------
+   |           .php|            950|             34|            136|     19|
+   |            .md|            100|              0|             52|    2.0|
+   |           .txt|             92|              0|             12|    1.8|
+   |          .json|             37|              0|              0|   0.73|
+   |           .csv|             14|              0|              0|   0.28|
+   |           .xml|            109|              0|              0|    2.2|
+   |          .html|            502|             19|             83|    9.9|
+   |           .css|           1354|             11|             20|     27|
+   |           .map|              6|              0|              0|   0.12|
+   |          .sass|            353|              0|             23|    7.0|
+   |          .scss|            911|             10|             49|     18|
+   |           .svg|             14|              0|              0|   0.28|
+   |           .iml|              8|              0|              0|   0.16|
+   |            .js|            605|              1|             73|     12|
+   |               |              6|              0|              0|   0.12|
+   -------------------------------------------------------------------------
+.htaccess, code is 6, comment is 0, blank is 0.
+.idea/htdocs.iml, code is 8, comment is 0, blank is 0.
+.idea/modules.xml, code is 8, comment is 0, blank is 0.
+.idea/php.xml, code is 22, comment is 0, blank is 0.
+.idea/vcs.xml, code is 6, comment is 0, blank is 0.
+.idea/workspace.xml, code is 73, comment is 0, blank is 0.
+.VSCodeCounter/2023-06-13_16-55-48/details.md, code is 12, comment is 0, blank is 6.
+.VSCodeCounter/2023-06-13_16-55-48/diff-details.md, code is 9, comment is 0, blank is 6.
+.VSCodeCounter/2023-06-13_16-55-48/diff.csv, code is 2, comment is 0, blank is 0.
+.VSCodeCounter/2023-06-13_16-55-48/diff.md, code is 12, comment is 0, blank is 7.
+.VSCodeCounter/2023-06-13_16-55-48/diff.txt, code is 19, comment is 0, blank is 3.
+.VSCodeCounter/2023-06-13_16-55-48/results.csv, code is 5, comment is 0, blank is 0.
+.VSCodeCounter/2023-06-13_16-55-48/results.json, code is 1, comment is 0, blank is 0.
+.VSCodeCounter/2023-06-13_16-55-48/results.md, code is 17, comment is 0, blank is 7.
+.VSCodeCounter/2023-06-13_16-55-48/results.txt, code is 27, comment is 0, blank is 3.
+.VSCodeCounter/2023-06-13_16-57-39/details.md, code is 12, comment is 0, blank is 6.
+.VSCodeCounter/2023-06-13_16-57-39/diff-details.md, code is 9, comment is 0, blank is 6.
+.VSCodeCounter/2023-06-13_16-57-39/diff.csv, code is 2, comment is 0, blank is 0.
+.VSCodeCounter/2023-06-13_16-57-39/diff.md, code is 12, comment is 0, blank is 7.
+.VSCodeCounter/2023-06-13_16-57-39/diff.txt, code is 19, comment is 0, blank is 3.
+.VSCodeCounter/2023-06-13_16-57-39/results.csv, code is 5, comment is 0, blank is 0.
+.VSCodeCounter/2023-06-13_16-57-39/results.json, code is 1, comment is 0, blank is 0.
+.VSCodeCounter/2023-06-13_16-57-39/results.md, code is 17, comment is 0, blank is 7.
+.VSCodeCounter/2023-06-13_16-57-39/results.txt, code is 27, comment is 0, blank is 3.
+chatManagement.php, code is 80, comment is 0, blank is 9.
+entities/Messages.php, code is 13, comment is 12, blank is 6.
+entities/Posts.php, code is 0, comment is 0, blank is 0.
+entities/Users.php, code is 49, comment is 18, blank is 13.
+generalFunctions.php, code is 23, comment is 0, blank is 5.
+home.php, code is 33, comment is 0, blank is 5.
+inc/config.php, code is 5, comment is 0, blank is 1.
+index.php, code is 36, comment is 0, blank is 6.
+model/Database.php, code is 73, comment is 1, blank is 6.
+postManagement.php, code is 76, comment is 0, blank is 15.
+public/base.html, code is 182, comment is 0, blank is 28.
+public/home.html, code is 15, comment is 0, blank is 9.
+public/notifications.html, code is 61, comment is 0, blank is 4.
+public/posts.html, code is 59, comment is 0, blank is 8.
+public/postStructure.json, code is 35, comment is 0, blank is 0.
+public/profileMenu.html, code is 13, comment is 0, blank is 0.
+public/prueba.html, code is 14, comment is 0, blank is 0.
+public/res/css/generalCSS.css, code is 692, comment is 11, blank is 13.
+public/res/css/generalCSS.css.map, code is 1, comment is 0, blank is 0.
+public/res/css/generalCSS.scss, code is 689, comment is 10, blank is 9.
+public/res/css/newPost.css, code is 102, comment is 0, blank is 0.
+public/res/css/newPost.css.map, code is 1, comment is 0, blank is 0.
+public/res/css/newPost.scss, code is 100, comment is 0, blank is 12.
+public/res/css/postsStyle.css, code is 144, comment is 0, blank is 0.
+public/res/css/postsStyle.css.map, code is 1, comment is 0, blank is 0.
+public/res/css/postsStyle.sass, code is 121, comment is 0, blank is 13.
+public/res/css/profileStyle.css, code is 122, comment is 0, blank is 1.
+public/res/css/profileStyle.css.map, code is 1, comment is 0, blank is 0.
+public/res/css/profileStyle.scss, code is 122, comment is 0, blank is 28.
+public/res/css/searchStyle.css, code is 100, comment is 0, blank is 0.
+public/res/css/searchStyle.css.map, code is 1, comment is 0, blank is 0.
+public/res/css/searchStyle.sass, code is 80, comment is 0, blank is 1.
+public/res/css/startPage.css, code is 194, comment is 0, blank is 6.
+public/res/css/startPage.css.map, code is 1, comment is 0, blank is 0.
+public/res/css/startPage.sass, code is 152, comment is 0, blank is 9.
+public/res/imgs/logo.svg, code is 14, comment is 0, blank is 0.
+public/res/imgs/post-pics/1069.jpg, it is a binary file.
+public/res/imgs/post-pics/1163.jpg, it is a binary file.
+public/res/imgs/post-pics/1279524532.jpg, it is a binary file.
+public/res/imgs/post-pics/1325.jpg, it is a binary file.
+public/res/imgs/post-pics/1440748975.jpg, it is a binary file.
+public/res/imgs/post-pics/1447.jpg, it is a binary file.
+public/res/imgs/post-pics/2.jpg, it is a binary file.
+public/res/imgs/post-pics/2248.jpg, it is a binary file.
+public/res/imgs/post-pics/2462.jpg, it is a binary file.
+public/res/imgs/post-pics/2929.jpg, it is a binary file.
+public/res/imgs/post-pics/3004.jpg, it is a binary file.
+public/res/imgs/post-pics/3050.jpg, it is a binary file.
+public/res/imgs/post-pics/315.jpg, it is a binary file.
+public/res/imgs/post-pics/3268.jpg, it is a binary file.
+public/res/imgs/post-pics/3404.jpg, it is a binary file.
+public/res/imgs/post-pics/3590.jpg, it is a binary file.
+public/res/imgs/post-pics/368738364.jpg, it is a binary file.
+public/res/imgs/post-pics/3957.jpg, it is a binary file.
+public/res/imgs/post-pics/401.jpg, it is a binary file.
+public/res/imgs/post-pics/4179.jpg, it is a binary file.
+public/res/imgs/post-pics/4326.jpg, it is a binary file.
+public/res/imgs/post-pics/4719.jpg, it is a binary file.
+public/res/imgs/post-pics/5115.jpg, it is a binary file.
+public/res/imgs/post-pics/5124.jpg, it is a binary file.
+public/res/imgs/post-pics/5161.jpg, it is a binary file.
+public/res/imgs/post-pics/524454641.jpg, it is a binary file.
+public/res/imgs/post-pics/5303.jpg, it is a binary file.
+public/res/imgs/post-pics/5523.jpg, it is a binary file.
+public/res/imgs/post-pics/5772.jpg, it is a binary file.
+public/res/imgs/post-pics/5819.jpg, it is a binary file.
+public/res/imgs/post-pics/6157.jpg, it is a binary file.
+public/res/imgs/post-pics/6334.jpg, it is a binary file.
+public/res/imgs/post-pics/6429.jpg, it is a binary file.
+public/res/imgs/post-pics/6461.jpg, it is a binary file.
+public/res/imgs/post-pics/6481.jpg, it is a binary file.
+public/res/imgs/post-pics/6863.jpg, it is a binary file.
+public/res/imgs/post-pics/6890.jpg, it is a binary file.
+public/res/imgs/post-pics/7133.jpg, it is a binary file.
+public/res/imgs/post-pics/7198.jpg, it is a binary file.
+public/res/imgs/post-pics/7243.jpg, it is a binary file.
+public/res/imgs/post-pics/7254.jpg, it is a binary file.
+public/res/imgs/post-pics/7257.jpg, it is a binary file.
+public/res/imgs/post-pics/7395.jpg, it is a binary file.
+public/res/imgs/post-pics/7599.jpg, it is a binary file.
+public/res/imgs/post-pics/7944.jpg, it is a binary file.
+public/res/imgs/post-pics/7948.jpg, it is a binary file.
+public/res/imgs/post-pics/8067.jpg, it is a binary file.
+public/res/imgs/post-pics/8161.jpg, it is a binary file.
+public/res/imgs/post-pics/835.jpg, it is a binary file.
+public/res/imgs/post-pics/849808017.jpg, it is a binary file.
+public/res/imgs/post-pics/8623.jpg, it is a binary file.
+public/res/imgs/post.png, it is a binary file.
+public/res/imgs/profile-pics/10706.jpg, it is a binary file.
+public/res/imgs/profile-pics/10906.jpg, it is a binary file.
+public/res/imgs/profile-pics/12329.jpg, it is a binary file.
+public/res/imgs/profile-pics/1404208171.jpg, it is a binary file.
+public/res/imgs/profile-pics/1426849675.jpg, it is a binary file.
+public/res/imgs/profile-pics/1562106810.jpg, it is a binary file.
+public/res/imgs/profile-pics/1711287995.jpg, it is a binary file.
+public/res/imgs/profile-pics/17444.jpg, it is a binary file.
+public/res/imgs/profile-pics/1848687026.jpg, it is a binary file.
+public/res/imgs/profile-pics/18561.jpg, it is a binary file.
+public/res/imgs/profile-pics/1876.jpg, it is a binary file.
+public/res/imgs/profile-pics/18966.jpg, it is a binary file.
+public/res/imgs/profile-pics/2131467219.jpg, it is a binary file.
+public/res/imgs/profile-pics/274735959.jpg, it is a binary file.
+public/res/imgs/profile-pics/314.jpg, it is a binary file.
+public/res/imgs/profile-pics/333.jpg, it is a binary file.
+public/res/imgs/profile-pics/444444.jpg, it is a binary file.
+public/res/imgs/profile-pics/4449.jpg, it is a binary file.
+public/res/imgs/profile-pics/5530.jpg, it is a binary file.
+public/res/imgs/profile-pics/5724.jpg, it is a binary file.
+public/res/imgs/profile-pics/678821349.jpg, it is a binary file.
+public/res/imgs/profile-pics/67983.jpg, it is a binary file.
+public/res/imgs/profile-pics/6861.jpg, it is a binary file.
+public/res/imgs/profile-pics/7726.jpg, it is a binary file.
+public/res/imgs/profile-pics/82690.jpg, it is a binary file.
+public/res/imgs/profile-pics/8319.jpg, it is a binary file.
+public/res/imgs/profile-pics/8361.jpg, it is a binary file.
+public/res/imgs/profile-pics/8825.jpg, it is a binary file.
+public/res/imgs/profile-pics/908779203.jpg, it is a binary file.
+public/res/imgs/profile-pics/97679.jpg, it is a binary file.
+public/res/imgs/profile-pics/97826.jpg, it is a binary file.
+public/savedPosts.html, code is 15, comment is 0, blank is 8.
+public/scripts/chatScript.js, code is 249, comment is 0, blank is 35.
+public/scripts/generalFunctions.js, code is 57, comment is 0, blank is 1.
+public/scripts/notifications.js, code is 84, comment is 0, blank is 12.
+public/scripts/postsScripts.js, code is 39, comment is 1, blank is 1.
+public/scripts/searchScript.js, code is 62, comment is 0, blank is 10.
+public/scripts/startPage.js, code is 114, comment is 0, blank is 14.
+public/search.html, code is 15, comment is 0, blank is 6.
+public/start.html, code is 54, comment is 18, blank is 12.
+public/user.html, code is 74, comment is 1, blank is 8.
+repository/messagesRepository.php, code is 15, comment is 0, blank is 3.
+repository/postsRepository.php, code is 169, comment is 0, blank is 18.
+repository/usersRepository.php, code is 192, comment is 0, blank is 25.
+routes.php, code is 47, comment is 3, blank is 3.
+search.php, code is 12, comment is 0, blank is 2.
+usersManager.php, code is 127, comment is 0, blank is 19.
+===============================================================================

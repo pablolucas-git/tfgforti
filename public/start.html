@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Document</title>
+    <script src="https://use.fontawesome.com/releases/v6.4.0/js/all.js" data-auto-replace-svg="nest"></script>
+    <script src="public/scripts/startPage.js"></script>
+    <script src="public/scripts/generalFunctions.js"></script>
+    <link rel="stylesheet" href="public/res/css/startPage.css">
+    <link rel="stylesheet" href="public/res/css/generalCSS.css">
+<link rel="stylesheet" href="https://unpkg.com/jcrop/dist/jcrop.css">
+<script src="https://unpkg.com/jcrop"></script>
+
+
+
+</head>
+
+<body>
+    <div class="start-screen-container">
+        <div class="start-container">
+            <div class="img-container"><img src="/public/res/imgs/logo.svg"></div>
+            <h3 id="start-form-title">Iniciar Sesión</h3>
+            <form id="form-login" name="login">
+                <div class="input-group-form"> 
+                    <input type="text" name="username" placeholder="Usuario" required>
+                    <input type="password" name="password" placeholder="Contraseña" required>
+                </div>
+                <div class="button-group-form">
+                    <button id="login-button" type="button" class="submit-button">Iniciar Sesión</button>
+                    <button id="goto-register-button" type="button" class="change-form-button">Registrar</button>
+                </div>
+            </form>
+
+            <form id="form-register" name="register" style="position: relative">
+                <div class="input-group-form">
+
+                    <input type="text" name="name" placeholder="Nombre" required>
+                    <input type="text" name="username" placeholder="Nombre de usuario" required>
+                    <input type="password" name="password" placeholder="Contraseña" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <label for="registerImage" class="registerImage">
+                        <i class="fa-solid fa-upload"></i>
+                    </label>
+                    <input type="file" name="imagen" id="registerImage" accept="image/*" required>
+                    
+                </div>
+                
+                <!--<div class="photo-upload" style="background: red; position: absolute; width: 100%; height: 100%; z-index: 10002">
+                    <input type="file" id="profile-picture" >
+                    <img id="profile-picture-preview" style="max-width: 100%;">
+                </div>-->
+                <div class="button-group-form">
+                    <button id="register-button" type="button" class="submit-button">Registrarme</button>
+                    <button id="goto-login-button" type="button" class="change-form-button">Iniciar Sesión</button>
+                </div>
+            
+            <!--<script>
+                document.getElementById('profile-picture').addEventListener('change', function(e){
+                    let reader = new FileReader();
+                    reader.onload = function(){
+                        document.getElementById('profile-picture-preview').src = reader.result;
+                    }
+                    reader.readAsDataURL(e.target.files[0]);
+                    Jcrop.attach('profile-picture-preview',{
+                        aspectRatio: 1,
+                        boxWidth: 300,
+                        boxHeight: 300
+                    });
+                });
+            </script>-->
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>

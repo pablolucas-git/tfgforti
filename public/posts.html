@@ -1,0 +1,73 @@
+
+<div class="post-wrapper">
+    <div class="post-container">
+        <div class="header">
+            <div class="img-container">
+                <img src="/public/res/imgs/profile-pics/{{post.user.id}}{{post.user.imgType}}" alt="profile pic">
+            </div>
+            <div class="txtperfil">
+                <span class="name"> {{post.user.name}} </span>
+                <span class="username"> <a href="/profile/{{post.user.username}}">@{{post.user.username}} </a></span>
+            </div>
+        </div>
+        <div class="publicacion">
+            <p> {{post.post.text}}</p>
+
+            <div class="post-img-container">
+                <img src="/public/res/imgs/post-pics/{{post.post.id}}{{post.post.imgType}}" alt="post pic">
+            </div>
+        </div>
+
+        <div class="comentariosdesplegados" id="comments-{{post.post.id}}">
+            <div class="all-comments">
+            {% for comment in post.post.comments %}
+            <div class="coment-container">
+                <div class="img-container"><img src="/public/res/imgs/profile-pics/{{comment.user.id}}{{comment.user.imgType}}" alt="profile pic"></div>
+                <div class="content-container">
+                    <span class="usercoment">{{comment.user.name}}</span>
+                    <span class="textocoment">{{comment.comment}}</span>
+                </div>
+            </div>
+            {% endfor %}
+            </div>
+
+            <div class="writecoment-container">
+                <div class="img-container"><img src="/public/res/imgs/profile-pics/{{user.id}}{{user.imgType}}" alt="user pic" id="user-img"></div>
+                <div class="input-coment">
+                    <input type="text" name="coment-text" placeholder="Escribe un nuevo comentario..."
+                         id="{{post.post.id}}-input">
+                    <button class="comment-button" type="button" data-post-id="{{post.post.id}}"><i class="fa-solid fa-paper-plane"></i></button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="post-interactions-container">
+        <div class="heart" data-post-id="{{post.post.id}}" data-liked="{{(post.post.liked) ? 'true' : 'false'}}" data-liked-num="{{post.post.likes}}">
+            <span id="like-icon-{{post.post.id}}" class="icons">
+            {% if post.post.liked %}
+                <i class="fas fa-solid fa-heart icon"></i>
+            {% else %}
+                <i class="fas fa-regular fa-heart icon"></i>
+            {% endif %}
+            </span>
+            <span>{{post.post.likes}} Likes</span>
+        </div>
+        <div class="comentarios">
+            <i class="fa-regular fa-message"></i>
+            <span>{{post.post.commentsCount}} Comentarios</span>
+        </div>
+
+        <div class="guardadas" data-post-id="{{post.post.id}}" data-saved="{{(post.post.saved) ? 'true' : 'false'}}" data-saved-num="{{post.post.saves}}">
+            <span id="save-icon-{{post.post.id}}" class="icons">
+            {% if post.post.saved %}
+            <i class="fa-solid fa-bookmark"></i>
+            {% else %}
+            <i class="fa-regular fa-bookmark"></i>
+            {% endif %}
+            </span>
+            <span>{{post.post.saves}} Guardados</span>
+        </div>
+    </div>
+</div>

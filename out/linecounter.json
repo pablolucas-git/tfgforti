@@ -1,0 +1,1131 @@
+{
+    "extension": "linecounter",
+    "version": "0.2.7",
+    "workspace": "/opt/lampp/htdocs",
+    "linecount": [
+        {
+            "version": "0.2.7",
+            "counttime": "2023-06-13 16:58:35",
+            "filesum": 159,
+            "codesum": 5061,
+            "commentsum": 75,
+            "blanksum": 448,
+            "statistics": {
+                ".php": {
+                    "code": 950,
+                    "comment": 34,
+                    "blank": 136
+                },
+                ".md": {
+                    "code": 100,
+                    "comment": 0,
+                    "blank": 52
+                },
+                ".txt": {
+                    "code": 92,
+                    "comment": 0,
+                    "blank": 12
+                },
+                ".json": {
+                    "code": 37,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".csv": {
+                    "code": 14,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".xml": {
+                    "code": 109,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".html": {
+                    "code": 502,
+                    "comment": 19,
+                    "blank": 83
+                },
+                ".css": {
+                    "code": 1354,
+                    "comment": 11,
+                    "blank": 20
+                },
+                ".map": {
+                    "code": 6,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".sass": {
+                    "code": 353,
+                    "comment": 0,
+                    "blank": 23
+                },
+                ".scss": {
+                    "code": 911,
+                    "comment": 10,
+                    "blank": 49
+                },
+                ".svg": {
+                    "code": 14,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".iml": {
+                    "code": 8,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".js": {
+                    "code": 605,
+                    "comment": 1,
+                    "blank": 73
+                },
+                "": {
+                    "code": 6,
+                    "comment": 0,
+                    "blank": 0
+                }
+            },
+            "filelist": [
+                {
+                    "blank": 0,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": ".htaccess"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": ".idea/htdocs.iml"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": ".idea/modules.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": ".idea/php.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": ".idea/vcs.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 73,
+                    "comment": 0,
+                    "filename": ".idea/workspace.xml"
+                },
+                {
+                    "blank": 6,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": ".VSCodeCounter/2023-06-13_16-55-48/details.md"
+                },
+                {
+                    "blank": 6,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": ".VSCodeCounter/2023-06-13_16-55-48/diff-details.md"
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": ".VSCodeCounter/2023-06-13_16-55-48/diff.csv"
+                },
+                {
+                    "blank": 7,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": ".VSCodeCounter/2023-06-13_16-55-48/diff.md"
+                },
+                {
+                    "blank": 3,
+                    "code": 19,
+                    "comment": 0,
+                    "filename": ".VSCodeCounter/2023-06-13_16-55-48/diff.txt"
+                },
+                {
+                    "blank": 0,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": ".VSCodeCounter/2023-06-13_16-55-48/results.csv"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".VSCodeCounter/2023-06-13_16-55-48/results.json"
+                },
+                {
+                    "blank": 7,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": ".VSCodeCounter/2023-06-13_16-55-48/results.md"
+                },
+                {
+                    "blank": 3,
+                    "code": 27,
+                    "comment": 0,
+                    "filename": ".VSCodeCounter/2023-06-13_16-55-48/results.txt"
+                },
+                {
+                    "blank": 6,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": ".VSCodeCounter/2023-06-13_16-57-39/details.md"
+                },
+                {
+                    "blank": 6,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": ".VSCodeCounter/2023-06-13_16-57-39/diff-details.md"
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": ".VSCodeCounter/2023-06-13_16-57-39/diff.csv"
+                },
+                {
+                    "blank": 7,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": ".VSCodeCounter/2023-06-13_16-57-39/diff.md"
+                },
+                {
+                    "blank": 3,
+                    "code": 19,
+                    "comment": 0,
+                    "filename": ".VSCodeCounter/2023-06-13_16-57-39/diff.txt"
+                },
+                {
+                    "blank": 0,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": ".VSCodeCounter/2023-06-13_16-57-39/results.csv"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".VSCodeCounter/2023-06-13_16-57-39/results.json"
+                },
+                {
+                    "blank": 7,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": ".VSCodeCounter/2023-06-13_16-57-39/results.md"
+                },
+                {
+                    "blank": 3,
+                    "code": 27,
+                    "comment": 0,
+                    "filename": ".VSCodeCounter/2023-06-13_16-57-39/results.txt"
+                },
+                {
+                    "blank": 9,
+                    "code": 80,
+                    "comment": 0,
+                    "filename": "chatManagement.php"
+                },
+                {
+                    "blank": 6,
+                    "code": 13,
+                    "comment": 12,
+                    "filename": "entities/Messages.php"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "entities/Posts.php"
+                },
+                {
+                    "blank": 13,
+                    "code": 49,
+                    "comment": 18,
+                    "filename": "entities/Users.php"
+                },
+                {
+                    "blank": 5,
+                    "code": 23,
+                    "comment": 0,
+                    "filename": "generalFunctions.php"
+                },
+                {
+                    "blank": 5,
+                    "code": 33,
+                    "comment": 0,
+                    "filename": "home.php"
+                },
+                {
+                    "blank": 1,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "inc/config.php"
+                },
+                {
+                    "blank": 6,
+                    "code": 36,
+                    "comment": 0,
+                    "filename": "index.php"
+                },
+                {
+                    "blank": 6,
+                    "code": 73,
+                    "comment": 1,
+                    "filename": "model/Database.php"
+                },
+                {
+                    "blank": 15,
+                    "code": 76,
+                    "comment": 0,
+                    "filename": "postManagement.php"
+                },
+                {
+                    "blank": 28,
+                    "code": 182,
+                    "comment": 0,
+                    "filename": "public/base.html"
+                },
+                {
+                    "blank": 9,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "public/home.html"
+                },
+                {
+                    "blank": 4,
+                    "code": 61,
+                    "comment": 0,
+                    "filename": "public/notifications.html"
+                },
+                {
+                    "blank": 8,
+                    "code": 59,
+                    "comment": 0,
+                    "filename": "public/posts.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 35,
+                    "comment": 0,
+                    "filename": "public/postStructure.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "public/profileMenu.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "public/prueba.html"
+                },
+                {
+                    "blank": 13,
+                    "code": 692,
+                    "comment": 11,
+                    "filename": "public/res/css/generalCSS.css"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "public/res/css/generalCSS.css.map"
+                },
+                {
+                    "blank": 9,
+                    "code": 689,
+                    "comment": 10,
+                    "filename": "public/res/css/generalCSS.scss"
+                },
+                {
+                    "blank": 0,
+                    "code": 102,
+                    "comment": 0,
+                    "filename": "public/res/css/newPost.css"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "public/res/css/newPost.css.map"
+                },
+                {
+                    "blank": 12,
+                    "code": 100,
+                    "comment": 0,
+                    "filename": "public/res/css/newPost.scss"
+                },
+                {
+                    "blank": 0,
+                    "code": 144,
+                    "comment": 0,
+                    "filename": "public/res/css/postsStyle.css"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "public/res/css/postsStyle.css.map"
+                },
+                {
+                    "blank": 13,
+                    "code": 121,
+                    "comment": 0,
+                    "filename": "public/res/css/postsStyle.sass"
+                },
+                {
+                    "blank": 1,
+                    "code": 122,
+                    "comment": 0,
+                    "filename": "public/res/css/profileStyle.css"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "public/res/css/profileStyle.css.map"
+                },
+                {
+                    "blank": 28,
+                    "code": 122,
+                    "comment": 0,
+                    "filename": "public/res/css/profileStyle.scss"
+                },
+                {
+                    "blank": 0,
+                    "code": 100,
+                    "comment": 0,
+                    "filename": "public/res/css/searchStyle.css"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "public/res/css/searchStyle.css.map"
+                },
+                {
+                    "blank": 1,
+                    "code": 80,
+                    "comment": 0,
+                    "filename": "public/res/css/searchStyle.sass"
+                },
+                {
+                    "blank": 6,
+                    "code": 194,
+                    "comment": 0,
+                    "filename": "public/res/css/startPage.css"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "public/res/css/startPage.css.map"
+                },
+                {
+                    "blank": 9,
+                    "code": 152,
+                    "comment": 0,
+                    "filename": "public/res/css/startPage.sass"
+                },
+                {
+                    "blank": 0,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "public/res/imgs/logo.svg"
+                },
+                {
+                    "filename": "public/res/imgs/post-pics/1069.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/post-pics/1163.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/post-pics/1279524532.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/post-pics/1325.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/post-pics/1440748975.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/post-pics/1447.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/post-pics/2.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/post-pics/2248.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/post-pics/2462.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/post-pics/2929.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/post-pics/3004.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/post-pics/3050.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/post-pics/315.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/post-pics/3268.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/post-pics/3404.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/post-pics/3590.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/post-pics/368738364.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/post-pics/3957.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/post-pics/401.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/post-pics/4179.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/post-pics/4326.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/post-pics/4719.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/post-pics/5115.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/post-pics/5124.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/post-pics/5161.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/post-pics/524454641.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/post-pics/5303.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/post-pics/5523.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/post-pics/5772.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/post-pics/5819.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/post-pics/6157.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/post-pics/6334.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/post-pics/6429.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/post-pics/6461.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/post-pics/6481.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/post-pics/6863.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/post-pics/6890.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/post-pics/7133.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/post-pics/7198.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/post-pics/7243.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/post-pics/7254.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/post-pics/7257.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/post-pics/7395.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/post-pics/7599.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/post-pics/7944.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/post-pics/7948.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/post-pics/8067.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/post-pics/8161.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/post-pics/835.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/post-pics/849808017.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/post-pics/8623.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/post.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/profile-pics/10706.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/profile-pics/10906.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/profile-pics/12329.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/profile-pics/1404208171.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/profile-pics/1426849675.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/profile-pics/1562106810.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/profile-pics/1711287995.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/profile-pics/17444.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/profile-pics/1848687026.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/profile-pics/18561.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/profile-pics/1876.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/profile-pics/18966.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/profile-pics/2131467219.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/profile-pics/274735959.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/profile-pics/314.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/profile-pics/333.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/profile-pics/444444.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/profile-pics/4449.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/profile-pics/5530.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/profile-pics/5724.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/profile-pics/678821349.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/profile-pics/67983.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/profile-pics/6861.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/profile-pics/7726.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/profile-pics/82690.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/profile-pics/8319.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/profile-pics/8361.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/profile-pics/8825.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/profile-pics/908779203.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/profile-pics/97679.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public/res/imgs/profile-pics/97826.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 8,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "public/savedPosts.html"
+                },
+                {
+                    "blank": 35,
+                    "code": 249,
+                    "comment": 0,
+                    "filename": "public/scripts/chatScript.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 57,
+                    "comment": 0,
+                    "filename": "public/scripts/generalFunctions.js"
+                },
+                {
+                    "blank": 12,
+                    "code": 84,
+                    "comment": 0,
+                    "filename": "public/scripts/notifications.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 39,
+                    "comment": 1,
+                    "filename": "public/scripts/postsScripts.js"
+                },
+                {
+                    "blank": 10,
+                    "code": 62,
+                    "comment": 0,
+                    "filename": "public/scripts/searchScript.js"
+                },
+                {
+                    "blank": 14,
+                    "code": 114,
+                    "comment": 0,
+                    "filename": "public/scripts/startPage.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "public/search.html"
+                },
+                {
+                    "blank": 12,
+                    "code": 54,
+                    "comment": 18,
+                    "filename": "public/start.html"
+                },
+                {
+                    "blank": 8,
+                    "code": 74,
+                    "comment": 1,
+                    "filename": "public/user.html"
+                },
+                {
+                    "blank": 3,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "repository/messagesRepository.php"
+                },
+                {
+                    "blank": 18,
+                    "code": 169,
+                    "comment": 0,
+                    "filename": "repository/postsRepository.php"
+                },
+                {
+                    "blank": 25,
+                    "code": 192,
+                    "comment": 0,
+                    "filename": "repository/usersRepository.php"
+                },
+                {
+                    "blank": 3,
+                    "code": 47,
+                    "comment": 3,
+                    "filename": "routes.php"
+                },
+                {
+                    "blank": 2,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "search.php"
+                },
+                {
+                    "blank": 19,
+                    "code": 127,
+                    "comment": 0,
+                    "filename": "usersManager.php"
+                }
+            ]
+        }
+    ]
+}

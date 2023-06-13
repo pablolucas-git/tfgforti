@@ -1,0 +1,88 @@
+{% extends "base.html" %}
+{% block title %} {{ user.name }} @{{user.username}} - Perfil{% endblock title %}
+
+
+{% block style %}
+<link rel="stylesheet" href="/public/res/css/profileStyle.css">
+<link rel="stylesheet" href="/public/res/css/postsStyle.css">
+{% endblock style %}
+
+{% block script %}
+<script src="/public/scripts/postsScripts.js"></script>
+<script src="/public/scripts/profilePage.js"></script>
+{% endblock script %}
+
+{% block content %}
+<div id="profile-page">
+    <div id="div-profile" style="position: relative">
+        <div class="profile-wrapper">
+            <div class="header-profile">
+                <div class="img-container">
+                    <img src="/public/res/imgs/profile-pics/{{userToShow.id}}{{userToShow.imgType}}" alt="">
+                </div>
+                <div class="columnprofile">
+                    <div class="profilecontent">
+                        <div class="txtperfil">
+                            <span class="name"> {{userToShow.name}} </span>
+                        </div>
+                        <div class="div-infoprofile">
+                            <div class="posts-fw-fwg">
+                                <span class="post"> {{postCount}} Posts</span>
+                                <span class="post"> {{friendsCount}} Amigos</span>
+
+                            </div>
+                            <div class="buttonsprofile">
+                                <!---  <i class="fa-solid fa-user-clock"></i> <i class="fa-solid fa-user-check"></i> -->
+                                {% if isSelf %}
+                                    
+                                {% else %}
+                                {% if isFriend %}
+                                <i class="fa-solid fa-user-check"></i>
+                                {% else %}
+                                {% if isRequest %}
+                                    <button class="btn send-friend-request-button sent" data-user-username="{{userToShow.username}}"><i class="fa-solid fa-user-plus" id="userplus"></i></button>
+                                {% else %}
+                                    <button class="btn send-friend-request-button" data-user-username="{{userToShow.username}}"><i class="fa-solid fa-user-plus" id="userplus"></i></button>
+                                    {% endif %}
+                                    {% endif %}
+                                {% endif %}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            {% if isFriend or isSelf %}
+            <div id="div-posts" style="position: relative">
+                {% for post in posts %}
+                {% include 'posts.html' with {'post':post} %}
+                {% endfor %}
+            </div>
+            {% else %}
+
+            <div class="profile-container">
+                <div class="header-container">
+                    <div class="imgprofile">
+                        <div class="img-container">
+                            <img src="/public/res/imgs/profile-pics/{{userToShow.id}}{{userToShow.imgType}}" alt="">
+                        </div>
+                    </div>
+                    <div class="txtperfil">
+                        <span class="user">{{userToShow.name}} </span>
+                        <span class="@user"> <a href="/profile/{{userToShow.username}}">@{{userToShow.username}} </a></span>
+                    </div>
+                </div>
+                <div class="header1-container">
+                    <div class="lock">
+                        <i class="fa-solid fa-lock"></i>
+                    </div>
+                    <div class="txtperfil">
+                        <span class="private"> Esta cuenta es privada </span>
+                        <span class="private"> Sigue esta cuenta para ver sus fotos y vídeos </span>
+                    </div>
+                </div>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+    {% endblock content %}

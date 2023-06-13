@@ -1,0 +1,168 @@
+#div-posts {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#div-posts .post-wrapper {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+#div-posts .post-wrapper .post-container {
+  width: 100%;
+  height: auto;
+  min-height: 300px;
+  background: #BD9FE9;
+  border-radius: 30px;
+}
+#div-posts .post-wrapper .post-container .header {
+  width: 400px;
+  margin-left: 2em;
+  margin-top: 2em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+#div-posts .post-wrapper .post-container .header .img-container {
+  width: 60px;
+  height: 60px;
+}
+#div-posts .post-wrapper .post-container .header .txtperfil {
+  display: flex;
+  flex-direction: column;
+}
+#div-posts .post-wrapper .post-container .header .txtperfil .username a {
+  color: var(--bs-body-color);
+  text-decoration: none;
+}
+#div-posts .post-wrapper .post-container .publicacion {
+  margin: 2em;
+}
+#div-posts .post-wrapper .post-container .publicacion .post-img-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#div-posts .post-wrapper .post-container .publicacion .post-img-container img {
+  width: 100%;
+}
+#div-posts .post-wrapper .post-interactions-container {
+  width: 100%;
+  height: 40px;
+  background: #BD9FE9;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0 30px 0 80px;
+  align-items: center;
+}
+#div-posts .post-wrapper .post-interactions-container .heart, #div-posts .post-wrapper .post-interactions-container .heart *, #div-posts .post-wrapper .post-interactions-container .comentarios, #div-posts .post-wrapper .post-interactions-container .comentarios *, #div-posts .post-wrapper .post-interactions-container .guardadas, #div-posts .post-wrapper .post-interactions-container .guardadas * {
+  margin: 0;
+  padding: 0;
+  padding-right: 5px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+#div-posts .post-wrapper .post-interactions-container .heart span.icons, #div-posts .post-wrapper .post-interactions-container .comentarios span.icons, #div-posts .post-wrapper .post-interactions-container .guardadas span.icons {
+  padding: 0 !important;
+  margin: 0 !important;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+#div-posts .post-wrapper .post-interactions-container i {
+  padding: 0 !important;
+}
+#div-posts .post-wrapper .comentariosdesplegados {
+  background: rgba(255, 255, 255, 0.662745098);
+  border-radius: 50px;
+  margin: 2em;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-shadow: 0 0 10px 10px rgba(255, 255, 255, 0.662745098);
+  overflow: hidden;
+}
+#div-posts .post-wrapper .comentariosdesplegados .all-comments {
+  max-height: 300px;
+  width: 100%;
+  overflow-y: scroll;
+}
+#div-posts .post-wrapper .comentariosdesplegados .coment-container {
+  display: flex;
+}
+#div-posts .post-wrapper .comentariosdesplegados .writecoment-container {
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  width: 100%;
+}
+#div-posts .post-wrapper .comentariosdesplegados .writecoment-container .input-coment {
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow-x: visible;
+  width: 100%;
+}
+#div-posts .post-wrapper .comentariosdesplegados .writecoment-container .input-coment::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: calc(100% - 30px);
+  height: 100%;
+  background: rgba(180, 155, 185, 0.3215686275);
+  border-radius: 50px;
+  top: 0;
+  left: 0;
+  transition: background 0.3s ease-in-out;
+  z-index: 0;
+  filter: blur(5px);
+}
+#div-posts .post-wrapper .comentariosdesplegados .writecoment-container .input-coment input {
+  width: 100%;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  padding: 0.5em 1em;
+  transition: background 0.3s ease-in-out;
+  background: transparent;
+  z-index: 1;
+}
+#div-posts .post-wrapper .comentariosdesplegados .writecoment-container .input-coment input::-moz-placeholder {
+  color: #474747;
+}
+#div-posts .post-wrapper .comentariosdesplegados .writecoment-container .input-coment input::placeholder {
+  color: #474747;
+}
+#div-posts .post-wrapper .comentariosdesplegados .img-container {
+  margin: 1em;
+  width: 50px;
+}
+#div-posts .post-wrapper .comentariosdesplegados .content-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1em;
+}
+#div-posts .post-wrapper .comentariosdesplegados .content-container .usercoment {
+  font-weight: bold;
+}
+#div-posts .comment-button {
+  border: none;
+  background: transparent;
+  outline: none;
+  margin-right: calc(30px + 1em);
+  z-index: 1;
+}
+#div-posts .comment-button i {
+  color: #555555;
+  font-size: 1.2em;
+}/*# sourceMappingURL=postsStyle.css.map */
